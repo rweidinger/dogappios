@@ -543,7 +543,7 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
             
             DispatchQueue.main.async {
                 self.cameraButton.isEnabled = true
-                self.recordButton.isEnabled = self.movieFileOutput != nil
+                //self.recordButton.isEnabled = self.movieFileOutput != nil
                 self.photoButton.isEnabled = true
                 self.livePhotoModeButton.isEnabled = true
                 // self.captureModeControl.isEnabled = true
